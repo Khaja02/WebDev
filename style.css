@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.img{
+    margin-bottom: 10px;
+    padding: 2px 2px;
+
+}
+ul{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+a{
+    padding: 10px 20px;
+    text-decoration-line: none;
+    color: black;
+    top: 111px;
+    left: 671px;
+    width: 45px;
+    height: 26px;
+/* UI Properties */
+    text-align: left;
+    font: normal normal 600 19px/26px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+hr{
+    width: 100%;
+    height: 3px;
+    background-color:#707070;
+    margin-top: 30px;
+}
+
+.about{
+    margin-top: 121px;
+    margin-left: 121px;
+    
+    
+
+}
+.top{
+    display: flex;
+    
+}
+.about h1{
+    top: 254px;
+    left: 121px;
+    width: 548px;
+    height: 108px;
+    text-align: left;
+    font: normal normal 900 40px/54px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.about p{
+    top: 382px;
+    left: 121px;
+    width: 520px;
+    height: 120px;
+    text-align: left;
+    font: normal normal normal 18px/24px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.top img{
+    margin-left: 250px;
+    border-radius: 60px;
+}
+.btn{
+    margin-top: 100px;
+    margin-right: 60px;
+    padding: 17px 50px;
+    border-color: transparent;
+    border-radius: 30px;
+    background-color: #1492E6;
+    color: white;
+    font-weight: 200;
+    font-size: x-large;
+    font-family: Nunito Sans;
+    font: normal normal 600 23px/31px Nunito Sans;
+    cursor: pointer;
+}
+.middle{
+    width: 100%;
+    margin-top: 80px;
+
+}
+.middle h1{
+    text-align: center;
+
+}
+.object{
+    margin-top: 40px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.items p{
+    top: 1020px;
+    left: 503px;
+    width: 275px;
+    height: 192px;
+    /* UI Properties */
+    background: transparent url('img/Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum dignissim. Proin in diam a justo sollicitudin mattis eu sagittisnunc. In hac habita.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.items{
+    text-align: center;
+    margin-left: 20px;
+    padding-top: 30px;
+    border-radius: 15px;
+
+    max-width: fit-content;
+    box-shadow: 0px 0px 10px 3px lightgray;
+}
+.items h3{
+    padding-bottom: 18px;
+}
+.container{
+    margin-top: 190px;
+    
+}
+.container h1{
+    text-align: center;
+}
+.bottom{
+    margin-top: 40px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.profiles p{
+    top: 1020px;
+    left: 503px;
+    width: 275px;
+    height: 192px;
+    text-align: left;
+    /* UI Properties */
+    background: transparent url('img/Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum dignissim. Proin in diam a justo sollicitudin mattis eu sagittisnunc. In hac habita.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.profiles h3{
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.profiles{
+    text-align: center;
+    margin-left: 40px;
+    padding-top: 30px;
+    border-radius: 15px;
+
+    max-width: fit-content;
+}
+.sen{
+    margin-top: 50px;
+    text-align: center;
+}
+.photo{
+    display: flex;
+    max-height: max-content;
+}
+.photo h3{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+button{
+    padding: 15px 35px;
+    border-color: transparent;
+    border-radius: 30px;
+    background-color: #1492E6;
+    color: white;
+    font-weight: 200;
+    font-size: x-large;
+    font-family: Nunito Sans;
+    font: normal normal 600 23px/31px Nunito Sans;
+    cursor: pointer;
+}
+.para p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.list1{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.list2{
+    margin-left: 1000px;
+}
+.list3{
+    margin-left: 40px;
+}
+.list4{
+    margin-left: 1000px;
+}
+
+.container1{
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 1097px;
+    margin-bottom: 20px;
+    height: 380px;
+    background: #f7fafc 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 42px;
+    opacity: 1
+}
+.log{
+    display: flex;
+}
+.head img{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    
+}
+.container1 h3{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.ph{
+    width: 20px;
+    height: 20px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+.n1{
+    display: flex;
+    justify-content: space-between;
+}
+.joe{
+    display: flex;
+}
+.name{
+    box-shadow: 0px 16px 48px #00000029;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.mat{
+    margin-top: 20px;
+    
+}
+.joe p{
+    margin-left: 8px;
+}
+.text1{
+    color: gray;
+}
+.container2{
+    margin-top: 70px;
+}
+.b3{
+    width: 80px;
+    height: 80px;
+}
+.container3{
+    text-align: center;
+    margin-top: 300px;
+   
+}
+.brand{
+    margin-top: 100px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+}
+.brand img{
+    margin-left: 150px;
+}
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 380px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid #707070
+}
+.footer p{
+    padding-top: 340px;
+}
+
